@@ -23,10 +23,10 @@ void setup() {
 
 void pulse_led(int led_num) {
   digitalWrite(led_num, HIGH);
-  delay(1000);
+  delay(300);
   
   digitalWrite(led_num, LOW);
-  delay(1000);
+  delay(300);
 }
 
 void loop() {
